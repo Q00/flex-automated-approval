@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node run.ts"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.35.1",
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "playwright": "^1.35.1",
+    "puppeteer": "^20.8.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4"
+  }
+}
